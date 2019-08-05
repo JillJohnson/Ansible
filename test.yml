@@ -14,7 +14,7 @@
   #  apt: name=gnome-shell
   #  state: latest
   #- name: install gnome desktop
-  #  apt: name=ubuntu-gnome-dekstop
+  #  apt: name=ubuntu-gnome-desktop
   #  state: latest
 
        
