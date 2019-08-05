@@ -1,0 +1,20 @@
+---
+
+- name: install gnome desktop 
+  hosts: 127.0.0.1
+  connection: local
+  become: yes
+  tasks:
+
+  - name: print hostname
+    command: hostname 
+  - name: print date
+    command: date
+  #- name: Install gnome shell
+  #  apt: name=gnome-shell
+  #  state: latest
+  #- name: install gnome desktop
+  #  apt: name=ubuntu-gnome-dekstop
+  #  state: latest
+
+       
